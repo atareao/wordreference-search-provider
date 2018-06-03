@@ -1,0 +1,135 @@
+# Spanish translations for WordReference Search Provider package.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the WordReference Search Provider package.
+# Lorenzo <lorenzo.carbonell.cerezo@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: WordReference Search Provider - 1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-02 20:07+0200\n"
+"PO-Revision-Date: 2018-06-02 19:46+0200\n"
+"Last-Translator: Lorenzo <lorenzo.carbonell.cerezo@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: schemas/es.atareao.power-commands.gschema.xml:17
+#: schemas/es.atareao.wordreference-search-provider.gschema.xml:17
+msgid "Dictionary"
+msgstr "Diccionario"
+
+#: schemas/es.atareao.power-commands.gschema.xml:21
+#: schemas/es.atareao.wordreference-search-provider.gschema.xml:21
+msgid "Synonyms"
+msgstr "Sinónimos"
+
+#: preferenceswidget.js:141
+msgid "Nothing"
+msgstr ""
+
+#: preferenceswidget.js:154
+msgid "True"
+msgstr ""
+
+#: preferenceswidget.js:167
+msgid "False"
+msgstr ""
+
+#: prefs.js:38
+msgid "Power Commands"
+msgstr ""
+
+#: prefs.js:43 prefs.js:42
+msgid "Version: "
+msgstr "Versión: "
+
+#: prefs.js:54 prefs.js:53
+msgid "Atareao"
+msgstr "Atareao"
+
+#: prefs.js:61 prefs.js:60
+msgid "Copyright © 2018 Lorenzo Carbonell"
+msgstr "Copyright © 2018 Lorenzo Carbonell"
+
+#: prefs.js:68 prefs.js:67
+msgid "This program is free software: you can redistribute it and/or modify"
+msgstr "Este programa es software libre: puede redistribuirlo y/o modificarlo"
+
+#: prefs.js:69 prefs.js:68
+msgid "it under the terms of the GNU General Public License as published by"
+msgstr ""
+"bajo los términos de la Licencia General Pública de GNU publicada por la"
+
+#: prefs.js:70 prefs.js:69
+msgid "the Free Software Foundation, either version 3 of the License, or"
+msgstr "Free Software Foundation, ya sea la versión 3 de la Licencia, o"
+
+#: prefs.js:71 prefs.js:70
+msgid "(at your option) any later version."
+msgstr "(a su elección) cualquier versión posterior."
+
+#: prefs.js:72 prefs.js:71
+msgid "This program is distributed in the hope that it will be useful,"
+msgstr "Este programa se distribuye con la esperanza de que sea útil,"
+
+#: prefs.js:73 prefs.js:72
+msgid "but WITHOUT ANY WARRANTY; without even the implied warranty of"
+msgstr "pero SIN NINGUNA GARANTÍA; incluso sin la garantía implícita de"
+
+#: prefs.js:74 prefs.js:73
+msgid "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
+msgstr "MERCANTIBILIDAD o CALIFICADA PARA UN PROPÓSITO EN PARTICULAR. Vea la"
+
+#: prefs.js:75 prefs.js:74
+msgid "GNU General Public License for more details."
+msgstr "Licencia General Pública de GNU para más detalles."
+
+#: prefs.js:76 prefs.js:75
+msgid "You should have received a copy of the GNU General Public License"
+msgstr ""
+"Usted ha debido de recibir una copia de la Licencia General Pública de GNU"
+
+#: prefs.js:77 prefs.js:76
+msgid ""
+"along with this program.  If not, see <a href=\"https://www.gnu.org/licenses/"
+"\">https://www.gnu.org/licenses/</a>."
+msgstr ""
+"junto con este programa. Si no, vea <a href=\"https://www.gnu.org/licenses/"
+"\">https://www.gnu.org/licenses/</a>."
+
+#: prefs.js:93 prefs.js:92
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: prefs.js:99
+msgid "Select buttons"
+msgstr ""
+
+#: prefs.js:110 prefs.js:109
+msgid "About"
+msgstr "Acerca de..."
+
+#: extension.js:53 extension.js:60
+msgid "WordReference"
+msgstr "WordReference"
+
+#: extension.js:54
+msgid "Loading items from WordReference, please wait..."
+msgstr "Cargando definiciones de WordReference, por favor espera..."
+
+#: extension.js:61
+msgid "Oops, an error occurred while searching."
+msgstr "Ups!, ha sucedido un error..."
+
+#: prefs.js:37
+#, fuzzy
+msgid "WordReference Search Provider"
+msgstr "WordReference"
+
+#: prefs.js:98
+msgid "Select elements"
+msgstr ""

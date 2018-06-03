@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="es.atareao.wordreferences-search-provider">
+    <enum id="es.atareao.wordreferences-search-provider.dictionary">
+        <value value="0" nick="Català"/>
+        <value value="1" nick="English"/>
+        <value value="2" nick="Español"/>
+        <value value="3" nick="Italiano"/>
+    </enum>
+    <enum id="es.atareao.wordreferences-search-provider.synonyms">
+        <value value="0" nick="English"/>
+        <value value="1" nick="Español"/>
+    </enum>
+
+    <schema path="/es/atareao/wordreferences-search-provider/" id="es.atareao.wordreferences-search-provider">
+        <key name="dictionary" enum="es.atareao.wordreferences-search-provider.dictionary">
+            <default>'English'</default>
+            <summary>Dictionary</summary>
+        </key>
+        <key name="synonyms" enum="es.atareao.wordreferences-search-provider.synonyms">
+            <default>'English'</default>
+            <summary>Synonyms</summary>
+        </key>
+    </schema>
+</schemalist>

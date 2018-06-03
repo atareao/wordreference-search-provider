@@ -1,0 +1,13 @@
+{
+  "description": "Search WordReference directly from GNOME Shell", 
+  "name": "WordReference Search Provider", 
+  "shell-version": [
+    "3.26", 
+    "3.28"
+  ], 
+  "url": "https://github.com/bmansurov/wikidata-search-provider", 
+  "uuid": "wordreference-search-provider@atareao.es", 
+  "gettext-domain": "wordreference-search-provider@atareao.es", 
+  "settings-schema": "es.atareao.wordreferences-search-provider",
+  "version": 1
+}

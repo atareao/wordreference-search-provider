@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-02 20:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: schemas/es.atareao.power-commands.gschema.xml:17
+#: schemas/es.atareao.wordreference-search-provider.gschema.xml:17
+msgid "Dictionary"
+msgstr ""
+
+#: schemas/es.atareao.power-commands.gschema.xml:21
+#: schemas/es.atareao.wordreference-search-provider.gschema.xml:21
+msgid "Synonyms"
+msgstr ""
+
+#: preferenceswidget.js:141 preferenceswidget.js:141
+msgid "Nothing"
+msgstr ""
+
+#: preferenceswidget.js:154 preferenceswidget.js:154
+msgid "True"
+msgstr ""
+
+#: preferenceswidget.js:167 preferenceswidget.js:167
+msgid "False"
+msgstr ""
+
+#: prefs.js:38
+msgid "Power Commands"
+msgstr ""
+
+#: prefs.js:43 prefs.js:42
+msgid "Version: "
+msgstr ""
+
+#: prefs.js:54 prefs.js:53
+msgid "Atareao"
+msgstr ""
+
+#: prefs.js:61 prefs.js:60
+msgid "Copyright © 2018 Lorenzo Carbonell"
+msgstr ""
+
+#: prefs.js:68 prefs.js:67
+msgid "This program is free software: you can redistribute it and/or modify"
+msgstr ""
+
+#: prefs.js:69 prefs.js:68
+msgid "it under the terms of the GNU General Public License as published by"
+msgstr ""
+
+#: prefs.js:70 prefs.js:69
+msgid "the Free Software Foundation, either version 3 of the License, or"
+msgstr ""
+
+#: prefs.js:71 prefs.js:70
+msgid "(at your option) any later version."
+msgstr ""
+
+#: prefs.js:72 prefs.js:71
+msgid "This program is distributed in the hope that it will be useful,"
+msgstr ""
+
+#: prefs.js:73 prefs.js:72
+msgid "but WITHOUT ANY WARRANTY; without even the implied warranty of"
+msgstr ""
+
+#: prefs.js:74 prefs.js:73
+msgid "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
+msgstr ""
+
+#: prefs.js:75 prefs.js:74
+msgid "GNU General Public License for more details."
+msgstr ""
+
+#: prefs.js:76 prefs.js:75
+msgid "You should have received a copy of the GNU General Public License"
+msgstr ""
+
+#: prefs.js:77 prefs.js:76
+msgid ""
+"along with this program.  If not, see <a href=\"https://www.gnu.org/licenses/"
+"\">https://www.gnu.org/licenses/</a>."
+msgstr ""
+
+#: prefs.js:93 prefs.js:92
+msgid "Preferences"
+msgstr ""
+
+#: prefs.js:99
+msgid "Select buttons"
+msgstr ""
+
+#: prefs.js:110 prefs.js:109
+msgid "About"
+msgstr ""
+
+#: extension.js:53 extension.js:60 extension.js:53 extension.js:60
+msgid "WordReference"
+msgstr ""
+
+#: extension.js:54 extension.js:54
+msgid "Loading items from WordReference, please wait..."
+msgstr ""
+
+#: extension.js:61 extension.js:61
+msgid "Oops, an error occurred while searching."
+msgstr ""
+
+#: prefs.js:37
+msgid "WordReference Search Provider"
+msgstr ""
+
+#: prefs.js:98
+msgid "Select elements"
+msgstr ""
