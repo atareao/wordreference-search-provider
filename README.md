@@ -1,4 +1,4 @@
-##WordReference Search Provider Extension for GNOME Shell
+## WordReference Search Provider Extension for GNOME Shell
 
 With this extension you are able to directly search definitions and synonyms from [WordReference] (https://www.wordreference.com/).
 
@@ -18,7 +18,7 @@ Synonyms:
 
 ### Install
 
-* ```git clone https://github.com/atareao/wordreference-search-provider.git ~/.local/share/gnome-shell/extensions/wordreference-search-provider@atareao.es``
+* ```git clone https://github.com/atareao/wordreference-search-provider.git ~/.local/share/gnome-shell/extensions/wordreference-search-provider@atareao.es```
 * Hit ```<Alt> + F2``` and type ```r``` and hit ```<Enter>```
 * Enable the extension in ```gnome-tweak-tool```
 * Configure languages in  ```gnome-tweak-tool```
