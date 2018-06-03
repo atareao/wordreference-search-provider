@@ -1,15 +1,28 @@
-/* Wikidata Search Provider for Gnome Shell
+/*
+ * WordReference Search Provider
+ * An extension to search definitions and synonyms in WordReference
+ * with GNOME Shell
  *
- * 2015, 2017 Contributors Bahodir Mansurov
+ * Copyright (C) 2018
+ *     Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>,
+ * https://www.atareao.es
  *
- * This program is free software; you can redistribute it and/or modify
+ * This file is part of WordReference Search Provider
+ * 
+ * WordReference Search Provider is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation; either version 3 of the License, or
+ * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * https://github.com/bmansurov/wikidata-search-provider
+ * WordReference Search Provider is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
  *
- */
+ * You should have received a copy of the GNU General Public License
+ * along with gnome-shell-extension-openweather.
+ * If not, see <http://www.gnu.org/licenses/>.
+  */
 
 // To debug: log('blah');
 // And run: journalctl /usr/bin/gnome-session -f -o cat | grep LOG

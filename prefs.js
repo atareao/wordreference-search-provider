@@ -1,5 +1,29 @@
-// -*- mode: js2; indent-tabs-mode: nil; js2-basic-offset: 4 -*-
-
+/*
+ * WordReference Search Provider
+ * An extension to search definitions and synonyms in WordReference
+ * with GNOME Shell
+ *
+ * Copyright (C) 2018
+ *     Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>,
+ * https://www.atareao.es
+ *
+ * This file is part of WordReference Search Provider
+ * 
+ * WordReference Search Provider is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * WordReference Search Provider is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with gnome-shell-extension-openweather.
+ * If not, see <http://www.gnu.org/licenses/>.
+  */
+ 
 const GLib = imports.gi.GLib;
 const GObject = imports.gi.GObject;
 const Gio = imports.gi.Gio;
