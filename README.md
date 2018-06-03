@@ -1,6 +1,6 @@
 ## WordReference Search Provider Extension for GNOME Shell
 
-With this extension you are able to directly search definitions and synonyms from [WordReference] (https://www.wordreference.com/).
+With this extension you are able to directly search definitions and synonyms from [WordReference](https://www.wordreference.com/).
 
 Available dictionaries:
 
