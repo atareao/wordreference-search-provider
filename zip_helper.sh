@@ -1,2 +1,2 @@
 #!/bin/bash
-zip -r --exclude=*.git* ../${PWD##*/}.zip
+zip -r --exclude=*.git* ../${PWD##*/}.zip *
