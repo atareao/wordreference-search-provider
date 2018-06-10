@@ -154,13 +154,12 @@ class WordReferenceSearchProvider{
 
         if (terms != null && terms.length >= 1 && (terms[0].substring(0, 2) === 'd:' || terms[0].substring(0, 2) === 's:')) {
             // show the loading message
-            //this.showMessage('__loading__', callback);
+            this.showMessage('__loading__', callback);
             // remove previous timeout
             if (this._timeoutId > 0) {
                 GLib.source_remove(this._timeoutId);
                 this._timeoutId = 0;
             }
-            // wait 0.5 seconds before making an API request
             this._timeoutId = GLib.timeout_add(GLib.PRIORITY_DEFAULT, 800, () => {
                 // now search
                 this._api.get(

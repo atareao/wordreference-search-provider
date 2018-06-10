@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<schemalist gettext-domain="es.atareao.wordreferences-search-provider">
+<schemalist gettext-domain="es.atareao.wordreference-search-provider">
     <enum id="es.atareao.wordreferences-search-provider.dictionary">
         <value value="0" nick="Català"/>
         <value value="1" nick="English"/>

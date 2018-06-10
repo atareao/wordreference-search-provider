@@ -1,5 +1,5 @@
 {
-  "description": "With WordReference Search Provider you can search definitions and synonyms directly from GNOME Shell. You can search definitions for english, spanish, italian. And synonyms for english and spanish.", 
+  "description": "With WordReference Search Provider you can search definitions and synonyms directly from GNOME Shell.\n You can search definitions for english, spanish, italian. And synonyms for english and spanish.", 
   "name": "WordReference Search Provider", 
   "shell-version": [
     "3.26", 
@@ -8,6 +8,6 @@
   "url": "https://github.com/atareao/wordreference-search-provider", 
   "uuid": "wordreference-search-provider@atareao.es", 
   "gettext-domain": "wordreference-search-provider@atareao.es", 
-  "settings-schema": "es.atareao.wordreferences-search-provider",
-  "version": 1
+  "settings-schema": "es.atareao.wordreference-search-provider",
+  "version": 2
 }
