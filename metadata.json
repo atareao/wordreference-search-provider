@@ -9,5 +9,5 @@
   "uuid": "wordreference-search-provider@atareao.es", 
   "gettext-domain": "wordreference-search-provider@atareao.es", 
   "settings-schema": "es.atareao.wordreference-search-provider",
-  "version": 2
+  "version": 3
 }
