@@ -1,37 +1,31 @@
 /*
- * WordReference Search Provider
- * An extension to search definitions and synonyms in WordReference
- * with GNOME Shell
+ * This file is part of wordreference-search-provider
  *
- * Copyright (C) 2018
- *     Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>,
- * https://www.atareao.es
+ * Copyright (c) 2018 Lorenzo Carbonell Cerezo <a.k.a. atareao>
  *
- * This file is part of WordReference Search Provider
- * 
- * WordReference Search Provider is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to
+ * deal in the Software without restriction, including without limitation the
+ * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ * sell copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
  *
- * WordReference Search Provider is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
  *
- * You should have received a copy of the GNU General Public License
- * along with gnome-shell-extension-openweather.
- * If not, see <http://www.gnu.org/licenses/>.
-  */
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ * IN THE SOFTWARE.
+ */
 
 // To debug: log('blah');
 // And run: journalctl /usr/bin/gnome-session -f -o cat | grep LOG
-const St = imports.gi.St;
+const {St, Gio, Gtk, GLib, Clutter} = imports.gi;
 const Main = imports.ui.main;
-const Gio = imports.gi.Gio;
-const Gtk = imports.gi.Gtk;
-const GLib = imports.gi.GLib;
-const Clutter = imports.gi.Clutter;
 const Util = imports.misc.util;
 
 const Extension = imports.misc.extensionUtils.getCurrentExtension();
@@ -55,8 +49,7 @@ class WordReferenceSearchProvider{
             return 'WordReference Search Provider';
         };
         this.appInfo.get_icon = ()=>{
-            return new Gio.ThemedIcon({name: "dictionary"});
-            //return Gio.icon_new_for_string(Extension.path + "/dictionary.svg");
+            return Gio.icon_new_for_string(Extension.path + '/icons/dictionary.svg');
         };
 
         // Custom messages that will be shown as search results
@@ -65,14 +58,19 @@ class WordReferenceSearchProvider{
                 id: '__loading__',
                 name: _('WordReference'),
                 description : _('Loading items from WordReference, please wait...'),
-                // TODO: do these kinds of icon creations better
-                createIcon: this.createIcon
+                createIcon: ()=>{}
             },
             '__error__': {
                 id: '__error__',
                 name: _('WordReference'),
                 description : _('Oops, an error occurred while searching.'),
-                createIcon: this.createIcon
+                createIcon: ()=>{}
+            },
+            '__nothing_found__': {
+                id: '__nothing_found__',
+                name: _('WordReference'),
+                description : _('Oops, I did\'nt found what you are looking for.'),
+                createIcon: ()=>{}
             }
         };
         // API results will be stored here
@@ -119,7 +117,6 @@ class WordReferenceSearchProvider{
     getResultMetas(identifiers, callback) {
         let metas = [];
         for (let i = 0; i < identifiers.length; i++) {
-            let result;
             // return predefined message if it exists
             if (identifiers[i] in this._messages) {
                 metas.push(this._messages[identifiers[i]]);
@@ -127,11 +124,13 @@ class WordReferenceSearchProvider{
                 // TODO: check for messages that don't exist, show generic error message
                 let meta = this.resultsMap.get(identifiers[i]);
                 if (meta){
+                    log("Id: " + meta.id + " Name: "+ meta.label);
+                    log("Description: " + meta.description);
                     metas.push({
                         id: meta.id,
                         name: meta.description,
                         //description : meta.description,
-                        createIcon: this.createIcon
+                        createIcon: ()=>{}
                     });
                 }
             }
@@ -192,8 +191,8 @@ class WordReferenceSearchProvider{
      * @param {Array} terms
      * @returns {Array}
      */
-    getSubsetResultSearch(previousResults, terms) {
-        return [];
+    getSubsearchResultSet(previousResults, terms, callback, cancellable) {
+        //this.getInitialResultSet(terms, callback);
     }
 
     /**
