@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordReference Search Provider - 1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-06-03 11:48+0200\n"
+"POT-Creation-Date: 2020-08-22 14:52+0200\n"
 "PO-Revision-Date: 2018-06-02 19:46+0200\n"
 "Last-Translator: Lorenzo <lorenzo.carbonell.cerezo@gmail.com>\n"
 "Language-Team: Spanish\n"
@@ -25,101 +25,133 @@ msgstr "Diccionario"
 msgid "Synonyms"
 msgstr "Sinónimos"
 
-#: extension.js:66 extension.js:73
+#: extension.js:59 extension.js:65 extension.js:71
 msgid "WordReference"
 msgstr "WordReference"
 
-#: extension.js:67
+#: extension.js:60
 msgid "Loading items from WordReference, please wait..."
 msgstr "Cargando definiciones de WordReference, por favor espera..."
 
-#: extension.js:74
+#: extension.js:66
 msgid "Oops, an error occurred while searching."
 msgstr "Ups!, ha sucedido un error..."
 
-#: preferenceswidget.js:169
+#: extension.js:72
+msgid "Oops, I did'nt found what you are looking for."
+msgstr ""
+
+#: preferenceswidget.js:216
 msgid "Nothing"
 msgstr "Nada"
 
-#: preferenceswidget.js:182
+#: preferenceswidget.js:229
 msgid "True"
 msgstr "Cierto"
 
-#: preferenceswidget.js:195
+#: preferenceswidget.js:242
 msgid "False"
 msgstr "Falso"
 
-#: prefs.js:61
+#: prefs.js:57
 #, fuzzy
 msgid "WordReference Search Provider"
 msgstr "WordReference Search Provider"
 
-#: prefs.js:66
+#: prefs.js:62
 msgid "Version: "
 msgstr "Versión: "
 
-#: prefs.js:77
+#: prefs.js:73
 msgid "Atareao"
 msgstr "Atareao"
 
-#: prefs.js:84
+#: prefs.js:80
 msgid "Copyright © 2018 Lorenzo Carbonell"
 msgstr "Copyright © 2018 Lorenzo Carbonell"
 
+#: prefs.js:87
+msgid ""
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS "
+"OR\n"
+msgstr ""
+
+#: prefs.js:88
+msgid ""
+"IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n"
+msgstr ""
+
+#: prefs.js:89
+msgid ""
+"FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n"
+msgstr ""
+
+#: prefs.js:90
+msgid ""
+"AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n"
+msgstr ""
+
 #: prefs.js:91
-msgid "This program is free software: you can redistribute it and/or modify"
-msgstr "Este programa es software libre: puede redistribuirlo y/o modificarlo"
+msgid ""
+"LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING\n"
+msgstr ""
 
 #: prefs.js:92
-msgid "it under the terms of the GNU General Public License as published by"
+msgid ""
+"FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER "
+"DEALINGS\n"
 msgstr ""
-"bajo los términos de la Licencia General Pública de GNU publicada por la"
 
 #: prefs.js:93
-msgid "the Free Software Foundation, either version 3 of the License, or"
-msgstr "Free Software Foundation, ya sea la versión 3 de la Licencia, o"
-
-#: prefs.js:94
-msgid "(at your option) any later version."
-msgstr "(a su elección) cualquier versión posterior."
-
-#: prefs.js:95
-msgid "This program is distributed in the hope that it will be useful,"
-msgstr "Este programa se distribuye con la esperanza de que sea útil,"
-
-#: prefs.js:96
-msgid "but WITHOUT ANY WARRANTY; without even the implied warranty of"
-msgstr "pero SIN NINGUNA GARANTÍA; incluso sin la garantía implícita de"
-
-#: prefs.js:97
-msgid "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
-msgstr "MERCANTIBILIDAD o CALIFICADA PARA UN PROPÓSITO EN PARTICULAR. Vea la"
-
-#: prefs.js:98
-msgid "GNU General Public License for more details."
-msgstr "Licencia General Pública de GNU para más detalles."
-
-#: prefs.js:99
-msgid "You should have received a copy of the GNU General Public License"
+msgid "IN THE SOFTWARE.\n"
 msgstr ""
-"Usted ha debido de recibir una copia de la Licencia General Pública de GNU"
 
-#: prefs.js:100
-msgid ""
-"along with this program.  If not, see <a href=\"https://www.gnu.org/licenses/"
-"\">https://www.gnu.org/licenses/</a>."
-msgstr ""
-"junto con este programa. Si no, vea <a href=\"https://www.gnu.org/licenses/"
-"\">https://www.gnu.org/licenses/</a>."
-
-#: prefs.js:119
+#: prefs.js:113
 msgid "Preferences"
 msgstr "Preferencias"
 
-#: prefs.js:125
+#: prefs.js:119
 msgid "Select dictionaries"
 msgstr "Elige diccionarios"
 
-#: prefs.js:136
+#: prefs.js:130
 msgid "About"
 msgstr "Acerca de..."
+
+#~ msgid "This program is free software: you can redistribute it and/or modify"
+#~ msgstr ""
+#~ "Este programa es software libre: puede redistribuirlo y/o modificarlo"
+
+#~ msgid "it under the terms of the GNU General Public License as published by"
+#~ msgstr ""
+#~ "bajo los términos de la Licencia General Pública de GNU publicada por la"
+
+#~ msgid "the Free Software Foundation, either version 3 of the License, or"
+#~ msgstr "Free Software Foundation, ya sea la versión 3 de la Licencia, o"
+
+#~ msgid "(at your option) any later version."
+#~ msgstr "(a su elección) cualquier versión posterior."
+
+#~ msgid "This program is distributed in the hope that it will be useful,"
+#~ msgstr "Este programa se distribuye con la esperanza de que sea útil,"
+
+#~ msgid "but WITHOUT ANY WARRANTY; without even the implied warranty of"
+#~ msgstr "pero SIN NINGUNA GARANTÍA; incluso sin la garantía implícita de"
+
+#~ msgid "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the"
+#~ msgstr ""
+#~ "MERCANTIBILIDAD o CALIFICADA PARA UN PROPÓSITO EN PARTICULAR. Vea la"
+
+#~ msgid "GNU General Public License for more details."
+#~ msgstr "Licencia General Pública de GNU para más detalles."
+
+#~ msgid "You should have received a copy of the GNU General Public License"
+#~ msgstr ""
+#~ "Usted ha debido de recibir una copia de la Licencia General Pública de GNU"
+
+#~ msgid ""
+#~ "along with this program.  If not, see <a href=\"https://www.gnu.org/"
+#~ "licenses/\">https://www.gnu.org/licenses/</a>."
+#~ msgstr ""
+#~ "junto con este programa. Si no, vea <a href=\"https://www.gnu.org/"
+#~ "licenses/\">https://www.gnu.org/licenses/</a>."
